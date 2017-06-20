@@ -21,4 +21,12 @@
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+
+    <intent-filter>
+        <action android:name="com.example.loginapplication.UPDATE"/>
+    </intent-filter>
+
+
 </manifest>
