@@ -3,6 +3,7 @@ package app2.example.com.app2;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -42,6 +43,12 @@ public class Action extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_action, container, false);
     }
+
+
+    //IntentFilter filter = new IntentFilter("com.example.loginapplication.UPDATE");
+
+   // MyReceiver receiver = new MyReceiver();
+   // registerReceiver(receiver, filter);
 
     /*private void launchReceiver()
     {
